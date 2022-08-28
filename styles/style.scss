@@ -63,19 +63,26 @@ a{
                     font-size: 14px;
                     margin:5px 0;
                     margin-left: 10px;
+                    display: flex;
+                    justify-content: center;
                     >input{
                         margin-left: 15px;
                         border:1px #446792 solid;
                         outline: none;
                     }
-                    >button{
-                        border:1px solid #b6ccf3;
-                        padding: 0 5px;
-                        height: 24px;
+                    >.btn{
+                        text-decoration: none;
                         font-size: 13px;
+                        text-align: center;
+                        line-height:24px ;
+                        display: block;
+                        width: 58px;
+                        height: 24px;
+                        border:1px solid #b6ccf3;
                         color:#33568c;
+                        margin:15px 5px;
                         cursor: pointer;
-                        background-image: linear-gradient(to bottom,#fff,#DBE9FF,#fff);
+                        background-image: linear-gradient(to bottom,#F1FAFF,#DBE9FF,#F1FAFF);
                     }
                 }
             }
@@ -591,6 +598,94 @@ main#download{
             }
         }
     }
+}
+#registerPage{
+    width:100%;
+    max-width: 1000px;
+    margin:0 auto;
+    >.register{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        >.title{
+            width:100%;
+            >p{
+                font-size: 56px;
+                color:#445799;
+                font-weight: 700;
+            }
+        }
+        >.content{
+            >form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width:100%;
+                h1{
+                    padding: 0 15px;
+                    font-size: 16px;
+                    width:100%;
+                    height: 53px;
+                    margin-bottom: 2px;
+                    line-height:  53px;
+                    color:#1F8BFF;
+                    border:1px solid #BECFEB;
+                    background-image:linear-gradient(to bottom, #fff,#DFEBFF) ;
+                }
+                >label{
+                    display: flex;
+                    justify-content: center;
+                    margin:2px 0;
+                    width:100%;
+                    >p{
+                        width: 198px;
+                        height: 30px;
+                        text-align:center;
+                        line-height: 30px;
+                        margin-right: 2px;
+                        font-size: 13px;
+                        border:1px solid #BECFEB;
+                        padding: 3px 0;
+                        background-image: linear-gradient(to bottom,#fff, #EFF4FB);
+                        >small{
+                            color:#f00;
+                            margin-right: 3px;
+                        }
+                        &.input{
+                            display: block;
+                            width:800px;
+                            height: 30px;
+                            text-align: left;
+                            padding: 0 15px ;
+                            border:1px solid #dde5f5;
+                            background-color: #F6FAFD;
+                            >input{
+                                color: #666666;
+                                font-size: 9px;
+                                width:250px;
+                            }
+    
+                        }
+                    }
+                    >.btn{
+                        text-decoration: none;
+                        font-size: 13px;
+                        text-align: center;
+                        line-height:24px ;
+                        display: block;
+                        width: 58px;
+                        height: 24px;
+                        border:1px solid #b6ccf3;
+                        color:#33568c;
+                        margin:15px 5px;
+                        cursor: pointer;
+                        background-image: linear-gradient(to bottom,#F1FAFF,#DBE9FF,#F1FAFF);
+                    }
+                }
+            }
+        }
+    }
+   
 }
 footer#footer{
     width:100%;
