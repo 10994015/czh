@@ -906,7 +906,6 @@ main#download > .content > .listDiv > div.list5 {
   margin-right: 2px;
   font-size: 13px;
   border: 1px solid #BECFEB;
-  padding: 3px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#EFF4FB));
   background-image: linear-gradient(to bottom, #fff, #EFF4FB);
 }
